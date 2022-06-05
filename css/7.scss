@@ -1,0 +1,144 @@
+.cont {
+  width: 1920px;
+  margin: auto;
+  position: relative;
+  //height: 1100px;
+  overflow: hidden;
+}
+.rtop{
+  top: 33px;
+  right: 37px;
+  position: absolute;
+  display: flex;
+  color: #fff;
+}
+.rtopitem{
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  margin-right: 35px;
+  &.rd{
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+  }
+}
+.logo{
+  position: absolute;
+  width: 234px;
+  height: 244px;
+  left: 25px;
+  margin-top: -60px;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
+.top{
+  .img{
+    width: 100%;
+    height: auto;
+    img{
+      width: 100%;
+    }
+  }
+}
+.line{
+  position: absolute;
+  height: 1px ;
+  background:#fff ;
+  top:90px;
+  width: 100%;
+}
+.nav{
+  position: absolute;
+  display: flex;
+  top: 10px;
+  margin-top: 108px;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  .item{
+    height: 45px;
+    line-height: 45px;
+    padding:0 40px;
+    color: #fff;
+    font-size: 18px;
+    &.active{
+      border-radius: 30px;
+      border: 1px solid #fff;
+    }
+  }
+}
+.nt1{
+  position: absolute;
+  top:378px;
+  left: 175px;
+  font-size: 80px;
+  color: #fff;
+}
+.nt2{
+  position: absolute;
+  top:600px;
+  left: 194px;
+  font-size: 30px;
+  color: #fff;
+  padding: 20px 60px;
+  border-radius: 40px;
+  border: 1px solid #fff;
+}
+
+//footer
+.footer{
+  border-top: 1px solid #fff;
+  width: 100%;
+  position: absolute;
+  top: 1004px;
+  .ft1{
+    padding: 115px;
+    display: flex;
+    .item{
+      width: 50%;
+      color: #fff;
+      font-size: 20px;
+      .li{
+        line-height: 30px;
+      }
+    }
+    .bitem{
+      width: 60%;
+      font-size: 20px;
+      text-align: center;
+      .t1{
+        color: #fff;
+      }
+      .email{
+        margin: 20px 80px;
+        border: 1px solid #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+        .txt{
+          color: #fff;
+        }
+        .icon{
+        }
+      }
+    }
+  }
+  .right{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -60px;
+    span{
+      text-decoration:underline;
+    }
+  }
+}

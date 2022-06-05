@@ -1,0 +1,115 @@
+.cont {
+  width: 1920px;
+  margin: auto;
+  position: relative; }
+
+.rtop {
+  top: 33px;
+  right: 37px;
+  display: flex;
+  position: absolute; }
+
+.rtopitem {
+  font-size: 18px;
+  margin-right: 35px; }
+
+.body {
+  overflow: hidden;
+  margin-left: 88px;
+  padding-top: 54px;
+  height: 1259px;
+  width: 1696px; }
+  .body .title {
+    display: flex;
+    color: #877947;
+    font-size: 30px;
+    flex-direction: row;
+    justify-content: center; }
+    .body .title div {
+      margin-right: 116px; }
+  .body .logo {
+    margin-left: 129px;
+    margin-top: 23px;
+    font-size: 30px; }
+  .body .ntitle {
+    margin-top: 77px;
+    font-size: 50px;
+    color: #5E4026;
+    text-align: center; }
+  .body .subtitle {
+    margin-top: 45px;
+    font-size: 20px;
+    color: #707070;
+    text-align: center; }
+    .body .subtitle span {
+      padding-left: 10px; }
+  .body .sort {
+    font-size: 20px;
+    float: right;
+    margin-right: 194px;
+    margin-top: 60px; }
+    .body .sort .sel {
+      border: 1px solid #707070;
+      border-radius: 10px;
+      padding: 5px; }
+  .body .imgs {
+    margin-top: 179px;
+    display: flex; }
+    .body .imgs .txt {
+      margin-top: 5px;
+      text-align: center;
+      font-size: 20px;
+      line-height: 25px; }
+      .body .imgs .txt.ntop {
+        margin-left: -50px;
+        margin-top: 60px; }
+  .body .lefimg {
+    width: 1019px;
+    height: 687px;
+    margin-left: -42px; }
+    .body .lefimg img {
+      width: 100%;
+      height: 100%; }
+  .body .rightimg {
+    width: 658px;
+    height: 567px;
+    margin-left: 19px;
+    margin-top: 55px; }
+    .body .rightimg .imgbox {
+      overflow: hidden; }
+    .body .rightimg img {
+      margin-left: -60px;
+      width: 100%;
+      height: 100%; }
+
+.left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 571px;
+  border: 1px solid #707070;
+  height: 100vh;
+  padding: 10px;
+  background: #fff; }
+  .left .title {
+    font-size: 30px;
+    margin-top: 77px;
+    text-align: center; }
+  .left .item {
+    display: flex;
+    font-size: 30px;
+    color: #707070;
+    justify-content: space-between;
+    padding: 40px 46px;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #707070; }
+    .left .item .icon {
+      font-size: 50px; }
+  .left .botm {
+    margin-top: 67px;
+    font-size: 30px;
+    color: #707070;
+    text-align: center; }
+
+/*# sourceMappingURL=1.css.map */

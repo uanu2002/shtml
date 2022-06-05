@@ -1,0 +1,182 @@
+.cont {
+  width: 1920px;
+  margin: auto;
+  position: relative; }
+
+.rtop {
+  top: 33px;
+  right: 37px;
+  position: absolute;
+  display: flex;
+  color: #fff; }
+
+.rtopitem {
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  margin-right: 35px; }
+  .rtopitem.rd {
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    height: 40px;
+    text-align: center;
+    line-height: 40px; }
+
+.imgs {
+  background: url("../img/bg1.png") no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 1338px;
+  overflow: hidden; }
+  .imgs .limg {
+    width: 369px; }
+  .imgs .rimg {
+    width: 1551px; }
+
+.lin2 {
+  display: flex; }
+  .lin2 .img {
+    width: 826px;
+    height: 562px;
+    overflow: hidden;
+    margin-left: 44px;
+    margin-top: 139px; }
+    .lin2 .img img {
+      width: 100%;
+      height: 100%; }
+  .lin2 .title {
+    margin-left: 119px;
+    margin-top: 103px; }
+    .lin2 .title .t {
+      font-size: 50px;
+      color: #000000; }
+    .lin2 .title .flx {
+      margin-top: 53px;
+      display: flex; }
+      .lin2 .title .flx .l1 {
+        width: 496px;
+        height: 300px;
+        font-size: 25px; }
+      .lin2 .title .flx .l2 {
+        width: 300px;
+        height: 300px;
+        font-size: 50px;
+        color: #707070; }
+  .lin2 .num {
+    width: 212px;
+    height: 59px;
+    border: 1px solid #707070;
+    border-radius: 50px;
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: space-around;
+    float: right;
+    margin-right: 63px; }
+    .lin2 .num .icon {
+      font-size: 35px; }
+  .lin2 .add {
+    clear: both;
+    padding-top: 53px; }
+    .lin2 .add .box {
+      width: 100%;
+      height: 98px;
+      background: #75471F; }
+      .lin2 .add .box p {
+        font-size: 40px;
+        line-height: 100px;
+        color: #fff;
+        text-align: center; }
+
+.lin3 {
+  display: flex; }
+  .lin3 .list {
+    margin-left: 220px;
+    margin-top: 116px; }
+    .lin3 .list .itms {
+      background: #75471F05;
+      width: 558px;
+      margin: auto;
+      text-align: center; }
+    .lin3 .list .itm .title {
+      background: #E7E3DA;
+      height: 74px;
+      font-size: 40px;
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end;
+      padding-bottom: 3px;
+      color: #75471F; }
+    .lin3 .list .itm .con {
+      margin: 30px auto;
+      font-size: 20px; }
+    .lin3 .list .itm .con2 {
+      font-size: 20px; }
+      .lin3 .list .itm .con2 .sub {
+        font-size: 18px;
+        margin: 5px 0;
+        margin-left: -30px; }
+  .lin3 .list2 {
+    margin-left: 205px;
+    margin-top: 54px; }
+    .lin3 .list2 .rew {
+      font-size: 20px;
+      margin-top: 13px;
+      color: #707070; }
+    .lin3 .list2 .ritem {
+      margin-top: 70px; }
+      .lin3 .list2 .ritem .item {
+        display: flex; }
+        .lin3 .list2 .ritem .item .li {
+          display: flex; }
+          .lin3 .list2 .ritem .item .li .img {
+            width: 77px;
+            height: 77px; }
+          .lin3 .list2 .ritem .item .li .co {
+            margin-left: 30px; }
+          .lin3 .list2 .ritem .item .li .name {
+            font-size: 20px;
+            color: #707070; }
+          .lin3 .list2 .ritem .item .li .cot {
+            max-width: 300px;
+            overflow: hidden;
+            width: 100%;
+            font-size: 13px;
+            color: #707070;
+            margin-top: 14px;
+            line-height: 20px; }
+          .lin3 .list2 .ritem .item .li .cot2 {
+            font-size: 20px; }
+      .lin3 .list2 .ritem .more {
+        font-size: 13px;
+        color: #707070;
+        float: right;
+        margin-right: 30px;
+        text-decoration: underline; }
+
+.line4 {
+  margin-right: 205px;
+  margin-left: 175px;
+  margin-top: 190px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px; }
+  .line4 .item .img {
+    margin: auto;
+    overflow: hidden;
+    width: 747px;
+    height: 641px; }
+    .line4 .item .img img {
+      width: 100%;
+      height: 100%; }
+  .line4 .item .img2 {
+    width: 708px; }
+  .line4 .item .txt {
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center; }
+    .line4 .item .txt p {
+      margin-top: 8px; }
+
+/*# sourceMappingURL=2.css.map */

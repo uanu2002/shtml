@@ -1,0 +1,226 @@
+.cont {
+  width: 1920px;
+  margin: auto;
+  position: relative;
+}
+.rtop{
+  top: 33px;
+  right: 37px;
+  position: absolute;
+  display: flex;
+  color: #fff;
+}
+.rtopitem{
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  margin-right: 35px;
+  &.rd{
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+  }
+}
+.imgs{
+  background: url("../img/bg1.png") no-repeat;
+  background-size:100% 100% ;
+  width:100% ;
+  height: 1338px;
+  overflow: hidden;
+  .limg{
+    width: 369px;
+  }
+  .rimg{
+    width: 1551px;
+  }
+}
+.lin2{
+  display: flex;
+  .img{
+    width: 826px;
+    height: 562px;
+    overflow: hidden;
+    margin-left: 44px;
+    margin-top: 139px;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .title{
+    margin-left: 119px;
+    margin-top: 103px;
+    .t{
+      font-size: 50px;
+      color: #000000;
+    }
+    .flx{
+      margin-top: 53px;
+      display: flex;
+      .l1{
+        width: 496px;
+        height: 300px;
+        font-size: 25px;
+      }
+      .l2{
+        width: 300px;
+        height: 300px;
+        font-size: 50px;
+        color: #707070;
+      }
+    }
+  }
+  .num{
+    width: 212px;
+    height: 59px;
+    border: 1px solid #707070;
+    border-radius: 50px;
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: space-around;
+    .icon{
+      font-size: 35px;
+    }
+    float: right;
+    margin-right: 63px;
+  }
+  .add {
+    clear: both;
+    padding-top: 53px;
+    .box{
+      width: 100%;
+      height:98px ;
+      background:#75471F ;
+      p{
+        font-size: 40px;
+        line-height: 100px;
+        color: #fff;
+        text-align: center;
+      }
+    }
+  }
+}
+.lin3{
+  display: flex;
+  .list{
+    margin-left: 220px;
+    margin-top: 116px;
+    .itms{
+      background: #75471F05;
+      width: 558px;
+      margin: auto;
+      text-align: center;
+    }
+    .itm{
+      .title{
+        background: #E7E3DA;
+       height: 74px;
+        font-size: 40px;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        padding-bottom: 3px;
+        color: #75471F;
+      }
+      .con{
+        margin:30px auto;
+        font-size:20px ;
+      }
+      .con2{
+        font-size:20px ;
+        .sub{
+          font-size:18px;
+          margin: 5px 0;
+          margin-left: -30px;
+        }
+      }
+    }
+  }
+  .list2{
+    margin-left: 205px;
+    margin-top: 54px;
+    .rew{
+      font-size: 20px;
+      margin-top: 13px;
+      color: #707070;
+    }
+    .ritem{
+      margin-top: 70px;
+      .item{
+        display: flex;
+          .li{
+            display: flex;
+            .img{
+              width: 77px;
+              height: 77px;
+            }
+            .co{
+              margin-left: 30px;
+            }
+            .name{
+              font-size: 20px;
+              color: #707070;
+            }
+            .cot{
+              max-width: 300px;
+              overflow: hidden;
+              width: 100%;
+              font-size: 13px;
+              color: #707070;
+              margin-top: 14px;
+              line-height: 20px;
+            }
+            .cot2{
+              font-size: 20px;
+            }
+          }
+      }
+      .more{
+        font-size: 13px;
+        color: #707070;
+        float: right;
+        margin-right: 30px;
+        text-decoration:underline;
+      }
+    }
+
+  }
+}
+.line4{
+  margin-right: 205px;
+  margin-left: 175px;
+    margin-top: 190px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
+  .item{
+      .img{
+        margin: auto;
+        overflow: hidden;
+        width: 747px;
+        height: 641px;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+
+      }
+    .img2{
+      width: 708px;
+    }
+    .txt{
+      margin-top: 40px;
+      font-size:20px ;
+      text-align: center;
+      p{
+        margin-top: 8px;
+      }
+    }
+  }
+}
+
+
